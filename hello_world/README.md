@@ -15,3 +15,8 @@ ex 2
 gcc -S "$CFILE"
 
 -S stop to the assembly stage   file.s
+
+ex 3 
+gcc "$CFILE" -o cisfun
+
+-o cisfun: This option tells gcc to name the output executable cisfun. If you don’t use this option, the default output filename would be a.out.
