@@ -8,14 +8,20 @@
  */
 int main(void)
 {
-	int i;
-	char hex[] = "0123456789abcdef";
+	char c;
 
-	i = 0;
-	while (i <= 16)
+	c = '0';
+	while (c <= '9')
 	{
-		putchar(hex[i]);
-		i++;
+		putchar(c);
+		c++;
 	}
+	c = 'a';
+	while (c <= 'f')
+	{
+		putchar(c);
+		c++;
+	}
+	putchar('\n');
 	return (0);
 }
