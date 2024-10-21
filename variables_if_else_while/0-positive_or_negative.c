@@ -10,7 +10,7 @@ int main(void)
 	int n = rand() - RAND_MAX / 2; /* Assign the number to n */
 
 	srand(time(NULL)); /* Initialize random number generator */
-	printf("%d\n", n);
+	printf("%d ", n);
 	if (n > 0)
 		printf("is positive\n");
 	if (n < 0)
