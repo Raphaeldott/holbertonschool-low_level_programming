@@ -2,19 +2,20 @@
 #include <stdio.h>
 #include <unistd.h>
 /**
- * main - prints alphabeth in lowercase
+ * main - prints hex base
  * putchar: prints 1 character
  * Return: 0 (success)
  */
 int main(void)
 {
-	char c;
+	int i;
+	char hex[] = "0123456789abcdef";
 
-	c = 'z';
-	while (c >= 'a')
+	i = 0;
+	while (i <= 16)
 	{
-		putchar(c);
-		c--;
+		putchar(hex[i]);
+		i++;
 	}
 	putchar('\n');
 	return (0);
