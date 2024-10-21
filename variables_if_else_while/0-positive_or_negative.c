@@ -10,7 +10,7 @@ int main(int argc, char *argv[])
 {
 int n = atoi(argv[1]);
 if (argc != 2)
-printf("%s ", argv[0]);
+printf("%s ", argv[1]);
 if (n > 0)
 printf("%d is positive\n", n);
 if (n < 0)
