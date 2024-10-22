@@ -8,4 +8,5 @@ int _islower(int c);/* checks for lowercases */
 int _isalpha(int c);/* checks for letter */
 int print_sign(int n);/* check the sign */
 int _abs(int n);/* print the absolute value of an integer */
+int print_last_digit(int n);/* print the last digit */
 #endif /* MAIN_H */
