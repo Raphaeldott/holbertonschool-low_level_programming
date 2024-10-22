@@ -11,4 +11,5 @@ int _abs(int n);/* print the absolute value of an integer */
 int print_last_digit(int n);/* print the last digit */
 void jack_bauer(void);/* count 24h */
 void times_table(void);/* print the time table till 9 */
+int add(int a, int b);/* additions */
 #endif /* MAIN_H */
