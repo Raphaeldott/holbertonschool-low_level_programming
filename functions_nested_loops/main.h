@@ -12,4 +12,5 @@ int print_last_digit(int n);/* print the last digit */
 void jack_bauer(void);/* count 24h */
 void times_table(void);/* print the time table till 9 */
 int add(int a, int b);/* additions */
+void print_to_98(int n);/* from n to 98 */
 #endif /* MAIN_H */
