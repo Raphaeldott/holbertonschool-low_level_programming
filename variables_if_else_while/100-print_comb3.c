@@ -1,5 +1,9 @@
 #include <stdio.h>
-
+/**
+ * main - prints 2 digit comb
+ *
+ * Return: 0 (success)
+ */
 int main(void)
 {
 	int i, j;
