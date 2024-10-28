@@ -14,4 +14,6 @@ void times_table(void);/* print the time table till 9 */
 int add(int a, int b);/* additions */
 void print_to_98(int n);/* from n to 98 */
 int _isupper(int c);/* uppercase */
+int _isdigit(int c);/* digits */
+
 #endif /* MAIN_H */
