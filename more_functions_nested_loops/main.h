@@ -21,5 +21,5 @@ void print_most_numbers(void);/* exceptions */
 void more_numbers(void);/* loop of display */
 void print_line(int n);/* lines */
 void print_diagonal(int n);/* diagonal */
-
+void print_square(int size);/* suqare of # */
 #endif /* MAIN_H */
