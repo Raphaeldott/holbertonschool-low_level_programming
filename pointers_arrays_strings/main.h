@@ -25,5 +25,6 @@ void print_square(int size);/* square of # */
 void print_triangle(int size);/* triangle of # */
 void reset_to_98(int *n);/* reset value */
 void swap_int(int *a, int *b);/* swap value */
+int _strlen(char *s);/* lenght of string */
 
 #endif /* MAIN_H */
