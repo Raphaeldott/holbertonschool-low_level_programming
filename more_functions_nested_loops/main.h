@@ -20,5 +20,6 @@ void print_numbers(void);/* numbers */
 void print_most_numbers(void);/* exceptions */
 void more_numbers(void);/* loop of display */
 void print_line(int n);/* lines */
+void print_diagonal(int n);/* diagonal */
 
 #endif /* MAIN_H */
