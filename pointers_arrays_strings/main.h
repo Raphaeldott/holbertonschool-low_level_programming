@@ -27,5 +27,6 @@ void reset_to_98(int *n);/* reset value */
 void swap_int(int *a, int *b);/* swap value */
 int _strlen(char *s);/* lenght of string */
 void _puts(char *str);/* print the string */
+void print_rev(char *s);/* print in reverse */
 
 #endif /* MAIN_H */
