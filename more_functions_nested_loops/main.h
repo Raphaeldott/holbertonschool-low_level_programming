@@ -17,5 +17,6 @@ int _isupper(int c);/* uppercase */
 int _isdigit(int c);/* digits */
 int mul(int a, int b);/* multiplicate */
 void print_numbers(void);/* numbers */
+void print_most_numbers(void);/* exceptions */
 
 #endif /* MAIN_H */
