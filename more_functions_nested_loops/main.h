@@ -15,6 +15,7 @@ int add(int a, int b);/* additions */
 void print_to_98(int n);/* from n to 98 */
 int _isupper(int c);/* uppercase */
 int _isdigit(int c);/* digits */
-int mul(int a, int b);
+int mul(int a, int b);/* multiplicate */
+void print_numbers(void);/* numbers */
 
 #endif /* MAIN_H */
