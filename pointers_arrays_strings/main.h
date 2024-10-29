@@ -29,5 +29,6 @@ int _strlen(char *s);/* lenght of string */
 void _puts(char *str);/* print the string */
 void print_rev(char *s);/* print in reverse */
 void rev_string(char *s);/* reverse a string */
+void puts2(char *str);/* by 2 */
 
 #endif /* MAIN_H */
