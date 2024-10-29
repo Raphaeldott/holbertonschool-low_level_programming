@@ -30,5 +30,6 @@ void _puts(char *str);/* print the string */
 void print_rev(char *s);/* print in reverse */
 void rev_string(char *s);/* reverse a string */
 void puts2(char *str);/* by 2 */
+void puts_half(char *str);/* half of string */
 
 #endif /* MAIN_H */
