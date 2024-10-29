@@ -33,5 +33,6 @@ void puts2(char *str);/* by 2 */
 void puts_half(char *str);/* half of string */
 void print_array(int *a, int n);/* print an array */
 char *_strcpy(char *dest, char *src);/* copy a string from source to dest */
+int _atoi(char *s);/* atoi function */
 
 #endif /* MAIN_H */
