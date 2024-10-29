@@ -28,5 +28,6 @@ void swap_int(int *a, int *b);/* swap value */
 int _strlen(char *s);/* lenght of string */
 void _puts(char *str);/* print the string */
 void print_rev(char *s);/* print in reverse */
+void rev_string(char *s);/* reverse a string */
 
 #endif /* MAIN_H */
