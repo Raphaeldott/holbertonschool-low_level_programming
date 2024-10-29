@@ -7,7 +7,7 @@ void puts2(char *str)
 {
 	int i;
 
-	for (i = 0; (str[i] != '\0') && (i < 224); i += 2)
+	for (i = 0; (str[i] != '\0') && (i < 448); i += 2)
 	{
 		_putchar(str[i]);
 	}
