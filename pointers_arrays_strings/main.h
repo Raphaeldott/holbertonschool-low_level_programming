@@ -40,5 +40,6 @@ char *_strncpy(char *dest, char *src, int n);/* copy n bytes */
 int _strcmp(char *s1, char *s2);/* compare 2 strings */
 void reverse_array(int *a, int n);/* reverse an array */
 char *string_toupper(char *);/* change lowercase to upercase */
+char *cap_string(char *);/* capitalise first letter of each word */
 
 #endif /* MAIN_H */
