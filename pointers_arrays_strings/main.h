@@ -36,5 +36,6 @@ char *_strcpy(char *dest, char *src);/* copy a string from source to dest */
 int _atoi(char *s);/* atoi function */
 char *_strcat(char *dest, char *src);/* concatenate */
 char *_strncat(char *dest, char *src, int n);/* concat n bytes */
+char *_strncpy(char *dest, char *src, int n);/* copy n bytes */
 
 #endif /* MAIN_H */
