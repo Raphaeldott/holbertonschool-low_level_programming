@@ -38,5 +38,6 @@ char *_strcat(char *dest, char *src);/* concatenate */
 char *_strncat(char *dest, char *src, int n);/* concat n bytes */
 char *_strncpy(char *dest, char *src, int n);/* copy n bytes */
 int _strcmp(char *s1, char *s2);/* compare 2 strings */
+void reverse_array(int *a, int n);/* reverse an array */
 
 #endif /* MAIN_H */
