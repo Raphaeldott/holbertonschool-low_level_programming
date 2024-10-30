@@ -34,5 +34,6 @@ void puts_half(char *str);/* half of string */
 void print_array(int *a, int n);/* print an array */
 char *_strcpy(char *dest, char *src);/* copy a string from source to dest */
 int _atoi(char *s);/* atoi function */
+char *_strcat(char *dest, char *src);/* concatenate */
 
 #endif /* MAIN_H */
