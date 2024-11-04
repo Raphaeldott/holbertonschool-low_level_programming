@@ -42,5 +42,14 @@ void reverse_array(int *a, int n);/* reverse an array */
 char *string_toupper(char *);/* change lowercase to upercase */
 char *cap_string(char *);/* capitalise first letter of each word */
 char *leet(char *str);/* replace aeotl by 43071 */
+char *_memset(char *s, char b, unsigned int n);/* n fois b at *s */
+char *_memcpy(char *dest, char *src, unsigned int n);/* copy n bytes from *src to *dest */
+char *_strchr(char *s, char c);/* locate c in *s */
+unsigned int _strspn(char *s, char *accept);/* length of prefix substring */
+char *_strpbrk(char *s, char *accept);/* searches a string for any of a set of bytes */
+char *_strstr(char *haystack, char *needle);/* locates a substring */
+void print_chessboard(char (*a)[8]);/* chess */
+void print_diagsums(int *a, int size);/*  prints the sum of the two diagonals of a square matrix */
+
 
 #endif /* MAIN_H */
