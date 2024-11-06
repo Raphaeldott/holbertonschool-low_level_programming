@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- *
- *
- *
- *
+ *_pow_recursion - powers
+ *@x: the number
+ *@y: the power
+ *Return: the result
  */
 int _pow_recursion(int x, int y)
 {
