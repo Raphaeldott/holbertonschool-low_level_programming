@@ -15,7 +15,7 @@ int main(void)
     float *f;
     double *d;
 
-    c = malloc_checked(0);
+    c = malloc_checked(sizeof(int) * 1024);
     printf("%p\n", (void *)c);
     i = malloc_checked(sizeof(int) * 402);
     printf("%p\n", (void *)i);
