@@ -27,7 +27,6 @@ char *str_concat(char *s1, char *s2)
 	while (s2[len2] != '\0')
 		len2++;
 
-	/* Allocate memory for the concatenated string, including the null terminator */
 	concat = (char *)malloc(sizeof(char) * (len1 + len2 + 1));
 
 	/* Check if memory allocation was successful */
