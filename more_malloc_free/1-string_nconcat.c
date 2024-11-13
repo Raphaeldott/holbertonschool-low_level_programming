@@ -1,5 +1,4 @@
 #include <stdlib.h>
-#include <string.h>
 
 /**
  * string_nconcat - concatenates two strings
@@ -13,15 +12,20 @@
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	char *concat;
-	unsigned int len1, len2, i, j;
+	unsigned int len1 = 0, len2 = 0, i, j;
 
 	if (s1 == NULL)
 		s1 = "";
 	if (s2 == NULL)
 		s2 = "";
 
-	len1 = strlen(s1);
-	len2 = strlen(s2);
+	/* Calculate length of s1 */
+	while (s1[len1])
+		len1++;
+
+	/* Calculate length of s2 */
+	while (s2[len2])
+		len2++;
 
 	/* Use the entire string s2 if n is greater or equal to len2 */
 	if (n >= len2)
@@ -43,3 +47,4 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 
 	return (concat);
 }
+
