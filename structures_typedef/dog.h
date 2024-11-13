@@ -10,11 +10,11 @@
  * Description: This struct holds basic information about a dog, including
  * its name, age, and owner.
  */
-struct dog
+typedef struct dog
 {
 	char *name;
 	float age;
 	char *owner;
-};
+} my_dog;
 
 #endif /* DOG_H */
