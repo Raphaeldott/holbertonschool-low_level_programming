@@ -17,7 +17,6 @@ list_t *add_node_end(list_t **head, const char *str)
 
 	if (str == NULL)
 		return (NULL);
-
 	/* Duplicate the string */
 	dup_str = strdup(str);
 	if (dup_str == NULL)
@@ -26,7 +25,6 @@ list_t *add_node_end(list_t **head, const char *str)
 	/* Calculate the length of the string */
 	while (str[len])
 		len++;
-
 	/* Allocate memory for the new node */
 	new_node = malloc(sizeof(list_t));
 	if (new_node == NULL)
@@ -34,26 +32,20 @@ list_t *add_node_end(list_t **head, const char *str)
 		free(dup_str);
 		return (NULL);
 	}
-
 	/* Initialize the new node */
 	new_node->str = dup_str;
 	new_node->len = len;
 	new_node->next = NULL;
-
 	/* If the list is empty, make the new node the head */
 	if (*head == NULL)
 	{
 		*head = new_node;
 		return (new_node);
 	}
-
-	/* Traverse to the end of the list */
-	temp = *head;
+	temp = *head; /* Traverse to the end of the list */
 	while (temp->next != NULL)
 		temp = temp->next;
 
-	/* Add the new node at the end */
-	temp->next = new_node;
-
+	temp->next = new_node; /* Add the new node at the end */
 	return (new_node);
 }
