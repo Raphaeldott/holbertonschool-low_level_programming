@@ -23,25 +23,25 @@ int main(int argc, char *argv[])
 	char buffer[BUFFER_SIZE];
 
 	if (argc != 3)
-		error_exit("Usage: cp file_from file_to\n", 97, NULL);
+		error_exit("Usage: cp file_from file_to", 97, NULL);
 
 	file_from = open(argv[1], O_RDONLY);
 	if (file_from == -1)
-		error_exit("Error: Can't read from file\n", 98, argv[1]);
+		error_exit("Error: Can't read from file", 98, argv[1]);
 
 	file_to = open(argv[2], O_WRONLY | O_CREAT | O_TRUNC, 0664);
 	if (file_to == -1)
-		error_exit("Error: Can't write to\n", 99, argv[2]);
+		error_exit("Error: Can't write to", 99, argv[2]);
 
 	while ((bytes_read = read(file_from, buffer, BUFFER_SIZE)) > 0)
 	{
 		bytes_written = write(file_to, buffer, bytes_read);
 		if (bytes_written == -1 || bytes_written != bytes_read)
-			error_exit("Error: Can't write to\n", 99, argv[2]);
+			error_exit("Error: Can't write to", 99, argv[2]);
 	}
 
 	if (bytes_read == -1)
-		error_exit("Error: Can't read from file\n", 98, argv[1]);
+		error_exit("Error: Can't read from file", 98, argv[1]);
 
 	close_file(file_from);
 	close_file(file_to);
