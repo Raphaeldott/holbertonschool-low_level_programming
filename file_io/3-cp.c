@@ -23,7 +23,7 @@ int main(int argc, char *argv[])
 	char buffer[BUFFER_SIZE];
 
 	if (argc != 3)
-		error_exit("Usage: cp file_from file_to", 97, NULL);
+		error_exit("Usage: cp file_from file_to\n", 97, NULL);
 
 	file_from = open(argv[1], O_RDONLY);
 	if (file_from == -1)
